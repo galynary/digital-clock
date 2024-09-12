@@ -1,0 +1,16 @@
+.js-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  width: 150px;
+}
+
+.item {
+  background-color: #ddd;
+  border: 1px solid black;
+  padding-left: 35%;
+  padding-top: 30%;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+}
