@@ -1,0 +1,33 @@
+{
+  "name": "digital-clock",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://galynary.github.io/digital-clock",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /digital-clock/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galynary/digital-clock.git"
+  },
+  "keywords": [],
+  "author": "Halyna Rybak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galynary/digital-clock/issues"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "sass": "^1.79.3",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
