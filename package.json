@@ -2,7 +2,7 @@
   "name": "digital-clock",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://galynary.github.io/digital-clock",
+  "homepage": "https://galynary.github.io/digital-clock/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /digital-clock/"
