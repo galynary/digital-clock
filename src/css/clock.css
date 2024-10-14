@@ -1,3 +1,16 @@
+.wrap__digital-clock {
+  padding: 20px;
+}
+.wrap__digital-clock .digital-clock {
+  color: brown;
+}
+.digital-clock,
+.date-style {
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: rgb(25, 65, 100);
+  font-weight: 600;
+}
 .clock {
   width: 550px;
   height: 550px;
